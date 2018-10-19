@@ -1,6 +1,6 @@
 # My json files for Karabiner-Elements.
 
-## for Japanese and others.
+## For Japanese and others
 * My_Key_Remap_for_KE.json
 
 ## A simple Vim mode for Karabiner-Elements
