@@ -1,0 +1,110 @@
+{
+  "title": "Tetsu 2 - Normal Mode (Start)",
+  "rules": [
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "description": "Ctrl-semicon -> semicolon",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "semicolon"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "__COMMENT__": " Values 'Normal' & 'Visual' are alterered only by pressing keys. ",
+      "__COMMENT__": " Other values like 'Normal_gg' are automatically switched back to 0. ",
+      "__COMMENT__": " Check the Variables Tab in the Event-Viewer. ",
+      "__COMMENT__": " 'Key_Code = ctr+shift+option+1' for switching ON red boarders for Normal. ",
+      "__COMMENT__": " 'Hammerspoon is used for switching on/off boards. ",
+      "description": "Start Normal Mode: semicolon",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": []
+            }
+          },
+          "to": [
+            {
+              "key_code": "1",
+              "modifiers": [
+                  "control", "shift", "option"
+                ]
+            },
+            {
+              "set_variable": {
+                "name": "Normal",
+                "value": 1
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Normal_gg",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Normal_dd",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Normal_zz",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Normal_yy",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Visual",
+                "value": 0
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
