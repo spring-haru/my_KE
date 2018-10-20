@@ -7,11 +7,11 @@
   * `semicolon` -> `escape` in MacVim only
   * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
   * `Ctrl+H`  -> `delete` (MacVim以外)
-  * 「かな」-> `Ctrl` if alone, otherwise 「かな」
-  * 「英数」 -> `fn` if alone, otherwise 「英数」
+  * 「`かな`」-> `Ctrl` if alone, otherwise 「`かな`」
+  * 「`英数`」 -> `fn` if alone, otherwise 「`英数`」
   * `fn+jkhl` : basic Vim movement
   * `Ctrl` -> `escape` if alone, otherwise Ctrl
-  * 「ろ」(Underscore) -> backslash
+  * 「`ろ`」(Underscore) -> backslash
   * Alfred : Buffer file management
   * Double `cmd-q` -> `cmd-q`
 
@@ -24,7 +24,7 @@
   * `iIaAoO` : exit Normal Mode
   * `jkhl` : basic movement in Normal Mode
   * `web0$G` : various movement in Normal Mode
-  * Cmd-j & -k : 5 lines down & up in Normal Mode
+  * `Cmd-j` & `Cmd-k` : 5 lines down & up in Normal Mode
   * `space` & `Shift-space` : 20 lines down & Up in Normal Mode
   * `Shift-j` : join lines
   * `x` -> delete
@@ -52,4 +52,4 @@
 
 * Disable_keys.json
   * `cntq` : disabled in Normal Mode
-  * 'inv' : disabled in Visual Mode
+  * `inv` : disabled in Visual Mode
