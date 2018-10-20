@@ -1,0 +1,234 @@
+{
+  "title": "Tetsu 6 - Disable Keys",
+  "rules": [
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "description": "Disable keys in Normal: cntq",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "t",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "description": "Disable keys in Visual: inv",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
