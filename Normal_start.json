@@ -27,6 +27,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+               "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -40,6 +42,7 @@
       "__COMMENT__": " Other values like 'Normal_gg' are automatically switched back to 0. ",
       "__COMMENT__": " Check the Variables Tab in the Event-Viewer. ",
       "__COMMENT__": " 'Key_Code = ctr+shift+option+1' for switching ON red boarders for Normal. ",
+      "__COMMENT__": " 'Key_Code = ctr+shift+option+9' for switching OFF boarders for Visual. ",
       "__COMMENT__": " 'Hammerspoon is used for switching on/off boards. ",
       "description": "Start Normal Mode: semicolon",
       "manipulators": [
@@ -52,6 +55,12 @@
             }
           },
           "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                  "control", "shift", "option"
+                ]
+            },
             {
               "key_code": "1",
               "modifiers": [
@@ -99,6 +108,8 @@
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+               "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
