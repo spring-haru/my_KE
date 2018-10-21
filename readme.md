@@ -58,4 +58,4 @@
   * Red boarders in Normal Mode
   * Blue boarders in Visual Mode
 
-My hammerspoon files can be found [here](https://github.com/spring-haru/.hammerspoon)
+My hammerspoon files can be found [here](https://github.com/spring-haru/.hammerspoon).
