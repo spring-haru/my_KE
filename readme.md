@@ -1,6 +1,6 @@
 # .json files for Karabiner-Elements
 
-## For Japanese and others
+## Japanese and others
 * `My_Key_Remap_for_KE.json`
   * `semicolon` -> `escape` in MacVim only
   * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
@@ -13,7 +13,7 @@
   * Alfred : Buffer file management
   * Double `cmd-q` -> `cmd-q`
 
-## A simple Vim mode for Karabiner-Elements
+## Yet Another Vim Mode
 * `Normal_start.json`
   * `Ctrl-semicon` -> `semicolon`
   * `semicolon` : start Normal Mode
