@@ -1,15 +1,16 @@
 # .json files for Karabiner-Elements
 
 ## Japanese and others
+* JIS Keyboard
 * `My_Key_Remap_for_KE.json`
   * `semicolon` -> `escape` in MacVim only
   * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
-  * `Ctrl+H`  -> `delete` (MacVim以外)
+  * `Ctrl-h`  -> `delete` (MacVim以外)
   * 「`かな`」-> `Ctrl` if alone, otherwise 「`かな`」
   * 「`英数`」 -> `fn` if alone, otherwise 「`英数`」
-  * `fn+jkhl` : basic Vim movement
+  * `fn-jkhl` : basic Vim movement
   * `Ctrl` -> `escape` if alone, otherwise Ctrl
-  * 「`ろ`」(Underscore) -> backslash
+  * 「`ろ`」(underscore) -> `\` (backslash)
   * Alfred : Buffer file management
   * Double `cmd-q` -> `cmd-q`
 
@@ -20,13 +21,13 @@
 
 * `Normal_basic-movement.json`
   * `iIaAoO` : exit Normal Mode
-  * `jkhl` : basic movement in Normal Mode
-  * `web0$G` : various movement in Normal Mode
+  * `jkhl` : basic movements in Normal Mode
+  * `web0$G` : various movements in Normal Mode
   * `Cmd-j` & `Cmd-k` : 5 lines down & up in Normal Mode
   * `space` & `Shift-space` : 20 lines down & Up in Normal Mode
   * `Shift-j` : join lines
-  * `x` -> delete
-  * `Shift-`d : delete the rest of a line
+  * `x` : delete
+  * `Shift-d` : delete the rest of a line
   * `p` : paste
   * `u` : undo
   * `Ctrl-r` : redo
@@ -49,8 +50,8 @@
   * `p` : paste
 
 * `Disable_keys.json`
-  * `cntq` : disabled in Normal Mode
-  * `inv` : disabled in Visual Mode
+  * `cntq` : keys disabled in Normal Mode
+  * `inv` : keys disabled in Visual Mode
 
 * [Hammerspoon](https://www.hammerspoon.org) is used to show
   * Red boarders in Normal Mode
