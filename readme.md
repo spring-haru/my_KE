@@ -1,4 +1,4 @@
-# json files for Karabiner-Elements
+# .json files for Karabiner-Elements
 
 ## For Japanese and others
 * File used
@@ -53,3 +53,8 @@
 * Disable_keys.json
   * `cntq` : disabled in Normal Mode
   * `inv` : disabled in Visual Mode
+
+* [Hammerspoon](https://www.hammerspoon.org) is used to show
+  * Red boarders in Normal Mode
+  * Blue boarders in Visual Mode
+My hammerspoon files can be found [here](https://github.com/spring-haru/.hammerspoon)
