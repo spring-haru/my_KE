@@ -9,7 +9,7 @@
   * 「`かな`」-> `Ctrl` if alone, otherwise 「`かな`」
   * 「`英数`」 -> `fn` if alone, otherwise 「`英数`」
   * `fn-jkhl` : basic Vim movement
-  * `Ctrl` -> `escape` if alone, otherwise Ctrl
+  * `Ctrl` -> `escape` if alone, otherwise `Ctrl`
   * 「`ろ`」(underscore) -> `\` (backslash)
   * Alfred : Buffer file management
   * Double `cmd-q` -> `cmd-q`
