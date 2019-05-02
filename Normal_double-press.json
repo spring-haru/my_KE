@@ -13,9 +13,7 @@
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": {
-                "mandatory": "command"
-              }
+              "modifiers": "command"
             }
           ],
           "conditions": [
@@ -28,7 +26,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -75,7 +73,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -140,7 +138,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -187,7 +185,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -234,7 +232,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -269,7 +267,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -316,7 +314,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -367,7 +365,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
@@ -414,7 +412,7 @@
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-               "^com\\.googlecode\\.iterm2$",
+                "^com\\.googlecode\\.iterm2$",
                 "org\\.vim\\.MacVim"
               ]
             }
