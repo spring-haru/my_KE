@@ -2,17 +2,17 @@
 
 ## Japanese and others
 * JIS Keyboard
-* `My_Key_Remap_for_KE.json`
-  * `semicolon` -> `escape` in MacVim only
-  * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
-  * `Ctrl-h`  -> `delete` (MacVim以外)
+* `My_Key_Remap_for_KE.json` (`かな` and `英数` are Japanese keys)
   * 「`かな`」-> `Ctrl` if alone, otherwise 「`かな`」
-  * 「`英数`」 -> `fn` if alone, otherwise 「`英数`」
-  * `fn-jkhl` : basic Vim movement
+  * 「`英数`」 -> `Option` if alone, otherwise 「`英数`」
   * `Ctrl` -> `escape` if alone, otherwise `Ctrl`
   * 「`ろ`」(underscore) -> `\` (backslash)
   * Alfred : Buffer file management
   * Double `cmd-q` -> `cmd-q`
+  * Ctrl+英数+hjkl -> up/down/left/right in Terminal, iTerm2, MacVim only
+  * Semicolon -> ESC for Terminal, iTerm, MacVim only
+  * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
+  * Ctrl+h  -> Delete or Option+Delete (except Termina, iTerm2, MacVim)
 
 ## Yet Another Vim Mode
 * `Normal_start.json`
