@@ -484,6 +484,64 @@
           ]
         }
       ]
+    },
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "description": "Cmd+jk in qtcontrol",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": ["command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow",
+              "modifiers": [
+                "left_control",
+                "fn"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "file_paths": [
+                "/Users/Tetsu/anaconda3/envs/py4etrics/bin/python3.7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": ["command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_control",
+                "fn"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "file_paths": [
+                "/Users/Tetsu/anaconda3/envs/py4etrics/bin/python3.7"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
