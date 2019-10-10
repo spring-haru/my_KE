@@ -487,7 +487,7 @@
     },
     {
       "__COMMENT__": "----------------------------------------------------------",
-      "description": "Cmd+jk in qtcontrol (anaconda3/.../bin/python3.7)",
+      "description": "Cmd+jk in qtcontrol (.*\/bin\/python.*)",
       "manipulators": [
         {
           "type": "basic",
@@ -510,8 +510,7 @@
             {
               "type": "frontmost_application_if",
               "file_paths": [
-                "/Users/Tetsu/anaconda3/bin/python3.7",
-                "/Users/Tetsu/anaconda3/envs/py4etrics/bin/python3.7"
+                ".*\/bin\/python.*"
               ]
             }
           ]
@@ -537,8 +536,7 @@
             {
               "type": "frontmost_application_if",
               "file_paths": [
-                "/Users/Tetsu/anaconda3/bin/python3.7",
-                "/Users/Tetsu/anaconda3/envs/py4etrics/bin/python3.7"
+                ".*\/bin\/python.*"
               ]
             }
           ]
