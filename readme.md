@@ -13,6 +13,7 @@
   * Semicolon -> ESC for Terminal, iTerm, MacVim only
   * `Ctrl-semicolon` -> `Ctrl-Option-semicolon`
   * Ctrl+h  -> Delete or Option+Delete (except Termina, iTerm2, MacVim)
+  * Cmd+jk in qtcontrol
 
 ## Yet Another Vim Mode
 * `Normal_start.json`
