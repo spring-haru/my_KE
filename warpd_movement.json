@@ -1,5 +1,5 @@
 {
-  "title": "Tetsu 7 - Mouse Movement",
+  "title": "Tetsu 8 - warpd (Mouse Movement)",
   "rules": [
     {
       "__COMMENT__": "----------------------------------------------------------",
@@ -19,6 +19,15 @@
             }
           },
           "to": [
+            {
+              "key_code": "1",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
             {
               "key_code": "3",
               "modifiers": [
@@ -64,6 +73,15 @@
           },
           "to": [
             {
+              "key_code": "1",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
+            {
               "key_code": "3",
               "modifiers": [
                 "control",
@@ -107,6 +125,15 @@
             }
           },
           "to": [
+            {
+              "key_code": "1",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
             {
               "key_code": "3",
               "modifiers": [

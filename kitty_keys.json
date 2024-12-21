@@ -1,5 +1,5 @@
 {
-  "title": "Tetsu 8 - kitty",
+  "title": "Tetsu 9 - kitty",
   "rules": [
     {
       "__COMMENT__": "When Kitty is activated (brought to front) ------------",
@@ -14,6 +14,15 @@
                   }
               },
               "to": [
+                  {
+                    "key_code": "1",
+                    "modifiers": [
+                      "control",
+                      "shift",
+                      "option",
+                      "command"
+                    ]
+                  },
                   {
                     "key_code": "3",
                     "modifiers": [
@@ -35,12 +44,12 @@
                       "value": 0
                     }
                   },
-                  {
-                      "software_function": {
-                          "open_application": {
-                              "file_path": "/Applications/kitty.app"
-                          }
-                      }
+                  { 
+                    "software_function": {
+                        "open_application": {
+                            "file_path": "/Applications/kitty.app"
+                        }
+                    }
                   }
               ]
           }
