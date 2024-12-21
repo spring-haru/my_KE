@@ -31,7 +31,7 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim",
+                "^org\\.vim\\.MacVim$",
                 "^net\\.kovidgoyal\\.kitty$"
               ]
             }
