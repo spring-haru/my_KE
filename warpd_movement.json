@@ -1,0 +1,143 @@
+{
+  "title": "Tetsu 7 - Mouse Movement",
+  "rules": [
+    {
+      "__COMMENT__": "----------------------------------------------------------",
+      "description": "warpd - Mouse Movement",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
+            {
+              "set_variable": {
+                "name": "Normal",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Visual",
+                "value": 0
+              }
+            },
+            {
+              "key_code": "c",
+              "modifiers": [
+                "option",
+                "command"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
+            {
+              "set_variable": {
+                "name": "Normal",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Visual",
+                "value": 0
+              }
+            },
+            {
+              "key_code": "g",
+              "modifiers": [
+                "option",
+                "command"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "control",
+                "shift",
+                "option",
+                "command"
+              ]
+            },
+            {
+              "set_variable": {
+                "name": "Normal",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "Visual",
+                "value": 0
+              }
+            },
+            {
+              "key_code": "x",
+              "modifiers": [
+                "option",
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

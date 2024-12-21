@@ -15,15 +15,6 @@
           },
           "to": [
             {
-              "key_code": "0",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
               "key_code": "2",
               "modifiers": [
                 "control",
@@ -86,15 +77,6 @@
               "key_code": "right_arrow",
               "modifiers": [
                 "shift",
-                "command"
-              ]
-            },
-            {
-              "key_code": "0",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
                 "command"
               ]
             },
@@ -711,15 +693,6 @@
               ]
             },
             {
-              "key_code": "9",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
               "set_variable": {
                 "name": "Normal",
                 "value": 1
@@ -770,15 +743,6 @@
             },
             {
               "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
-              "key_code": "9",
               "modifiers": [
                 "control",
                 "shift",
@@ -840,15 +804,6 @@
             },
             {
               "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
-              "key_code": "9",
               "modifiers": [
                 "control",
                 "shift",

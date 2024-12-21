@@ -138,6 +138,37 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "semicolon",
+                  "modifiers": {
+                      "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "Normal",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "Visual",
+              "value": 1
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "org\\.vim\\.MacVim"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "i",
                   "modifiers": {
                       "optional": ["any"] }

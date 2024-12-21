@@ -1,0 +1,51 @@
+{
+  "title": "Tetsu 8 - kitty",
+  "rules": [
+    {
+      "__COMMENT__": "When Kitty is activated (brought to front) ------------",
+      "description": "Open Kitty by control + comma",
+      "manipulators": [
+          {
+              "type": "basic",
+              "from": {
+                  "key_code": "comma",
+                  "modifiers": {
+                      "mandatory": ["left_control"]
+                  }
+              },
+              "to": [
+                  {
+                    "key_code": "3",
+                    "modifiers": [
+                      "control",
+                      "shift",
+                      "option",
+                      "command"
+                    ]
+                  },
+                  {
+                    "set_variable": {
+                      "name": "Normal",
+                      "value": 0
+                    }
+                  },
+                  {
+                    "set_variable": {
+                      "name": "Visual",
+                      "value": 0
+                    }
+                  },
+                  {
+                      "software_function": {
+                          "open_application": {
+                              "file_path": "/Applications/kitty.app"
+                          }
+                      }
+                  }
+              ]
+          }
+      ]
+    }
+  ]
+}
+

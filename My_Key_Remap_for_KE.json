@@ -17,7 +17,7 @@
           },
           "to": [
             {
-              "key_code": "right_control",
+              "key_code": "left_control",
               "lazy": true
             }
           ],
@@ -31,7 +31,7 @@
     },
     {
       "__COMMENT__": " Option+jkhl is remapped in the below ",
-      "description": "「英数」 -> Option if alone 【使う】",
+      "description": "「英数」 -> Ctrl+Shift+Command+Option if alone 【使う】",
       "manipulators": [
         {
           "type": "basic",
@@ -45,9 +45,14 @@
           },
           "to": [
             {
-            "key_code": "left_option",
+              "key_code": "left_shift",
+              "modifiers": [
+                "left_control",
+                "left_command",
+                "left_option"
+              ],
               "lazy": true
-           }
+            }
           ],
           "to_if_alone": [
             {
@@ -135,7 +140,7 @@
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                "com\\.runningwithcrayons\\.Alfred-3"
+                "com\\.runningwithcrayons\\.Alfred"
               ]
             }
           ]
@@ -163,7 +168,7 @@
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                "com\\.runningwithcrayons\\.Alfred-3"
+                "com\\.runningwithcrayons\\.Alfred"
               ]
             }
           ]
@@ -191,7 +196,7 @@
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                "com\\.runningwithcrayons\\.Alfred-3"
+                "com\\.runningwithcrayons\\.Alfred"
               ]
             }
           ]
@@ -219,7 +224,7 @@
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                "com\\.runningwithcrayons\\.Alfred-3"
+                "com\\.runningwithcrayons\\.Alfred"
               ]
             }
           ]
@@ -312,7 +317,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -336,7 +342,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -360,7 +367,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -384,7 +392,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -405,10 +414,10 @@
           },
           "to": [
             {
-              "key_code": "escape"
-            },
-            {
               "key_code": "japanese_eisuu"
+            },
+            { 
+              "key_code": "escape"
             }
           ],
           "conditions": [
@@ -417,7 +426,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -478,65 +488,8 @@
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
-                "org\\.vim\\.MacVim"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "__COMMENT__": "----------------------------------------------------------",
-      "description": "Cmd+jk in qtcontrol (.*\/bin\/python.*)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "mandatory": ["command"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "down_arrow",
-              "modifiers": [
-                "left_control",
-                "fn"
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "file_paths": [
-                ".*\/bin\/python.*"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": ["command"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "up_arrow",
-              "modifiers": [
-                "left_control",
-                "fn"
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "file_paths": [
-                ".*\/bin\/python.*"
+                "org\\.vim\\.MacVim",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
