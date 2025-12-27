@@ -20,22 +20,10 @@
           },
           "to": [
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f17"
             },
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "set_variable": {

@@ -12,13 +12,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "set_variable": {
@@ -62,13 +56,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "key_code": "left_arrow",
@@ -108,13 +96,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "key_code": "right_arrow"
@@ -155,13 +137,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "key_code": "right_arrow",
@@ -201,13 +177,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "key_code": "right_arrow",
@@ -252,13 +222,7 @@
           },
           "to": [
             {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "key_code": "left_arrow",

@@ -15,13 +15,7 @@
           },
           "to": [
             {
-              "key_code": "2",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f18"
             },
             {
               "set_variable": {
@@ -82,13 +76,7 @@
               ]
             },
             {
-              "key_code": "2",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f18"
             },
             {
               "set_variable": {

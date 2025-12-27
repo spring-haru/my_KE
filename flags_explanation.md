@@ -16,30 +16,11 @@ DoubleQ_to_Quit: 0/1  (Qの2回押し)
 ## Keyboard Maestro - Menu Icon
 
 ### Normal On
-"key_code": "1",
-"modifiers": [
-"control",
-"shift",
-"option",
-"command"
-]
+"key_code": "f17"
+"modifiers": 
 
 ### Visual On
-
-"key_code": "2",
-"modifiers": [
-"control",
-"shift",
-"option",
-"command"
-]
+"key_code": "f18"
 
 ### Insert On
-"key_code": "3",
-"modifiers": [
-"control",
-"shift",
-"option",
-"command"
-]
-
+"key_code": "f19"

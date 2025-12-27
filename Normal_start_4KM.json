@@ -53,13 +53,7 @@
           },
           "to": [
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f17"
             },
             {
               "set_variable": {
