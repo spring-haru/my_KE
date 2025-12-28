@@ -686,13 +686,7 @@
               ]
             },
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f17"
             },
             {
               "set_variable": {
@@ -745,13 +739,7 @@
               "key_code": "right_arrow"
             },
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f17"
             },
             {
               "set_variable": {
@@ -807,13 +795,7 @@
               ]
             },
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f17"
             },
             {
               "set_variable": {
