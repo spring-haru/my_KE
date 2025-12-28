@@ -1,45 +1,52 @@
 {
-  "title": "Tetsu 9 - kitty",
+  "title": "Tetsu 9 - kitty (toggle)",
   "rules": [
     {
-      "__COMMENT__": "When Kitty is activated (brought to front) ------------",
-      "description": "Open Kitty by control + comma",
+      "description": "Ctrl+, toggles Kitty: focus Kitty; if already focused, go back to previous app",
       "manipulators": [
-          {
-              "type": "basic",
-              "from": {
-                  "key_code": "comma",
-                  "modifiers": {
-                      "mandatory": ["left_control"]
-                  }
-              },
-              "to": [
-                  {
-                    "key_code": "f19"
-                  },
-                  {
-                    "set_variable": {
-                      "name": "Normal",
-                      "value": 0
-                    }
-                  },
-                  {
-                    "set_variable": {
-                      "name": "Visual",
-                      "value": 0
-                    }
-                  },
-                  { 
-                    "software_function": {
-                        "open_application": {
-                            "file_path": "/Applications/kitty.app"
-                        }
-                    }
-                  }
-              ]
-          }
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": { "mandatory": ["left_control"] }
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+            }
+          ],
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": ["left_command"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": { "mandatory": ["left_control"] }
+          },
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+            }
+          ],
+          "to": [
+            { "key_code": "f19" },
+            { "set_variable": { "name": "Normal", "value": 0 } },
+            { "set_variable": { "name": "Visual", "value": 0 } },
+            {
+              "software_function": {
+                "open_application": { "file_path": "/Applications/kitty.app" }
+              }
+            }
+          ]
+        }
       ]
     }
   ]
 }
-
