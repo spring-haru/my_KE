@@ -58,22 +58,7 @@
           },
           "to": [
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "set_variable": {
@@ -88,9 +73,8 @@
               }
             },
             {
-              "key_code": "g",
+              "key_code": "i",
               "modifiers": [
-                "option",
                 "command"
               ]
             }
@@ -111,22 +95,7 @@
           },
           "to": [
             {
-              "key_code": "1",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
-            },
-            {
-              "key_code": "3",
-              "modifiers": [
-                "control",
-                "shift",
-                "option",
-                "command"
-              ]
+              "key_code": "f19"
             },
             {
               "set_variable": {
